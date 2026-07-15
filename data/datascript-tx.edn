@@ -1,0 +1,35 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "cri.codigo-comercio-ley-3284"
+           :title "Código de Comercio (Ley N.º 3284)"
+           :jurisdiction "CRI"
+           :kind :law
+           :law-number "Ley N.º 3284"
+           :url "https://pgrweb.go.cr/scij/Busqueda/Normativa/Normas/nrm_texto_completo.aspx?param1=NRTC&nValor1=1&nValor2=6239&nValor3=89980&strTipM=TC"
+           :url-provenance :official-pgrweb-go-cr
+           :enacted-date "1964-04-30"
+           :last-revised-date "2012-09-10"
+           :retrieved-at "2026-07-16"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "cri.ley-proteccion-datos-8968"
+           :title "Ley de Protección de la Persona frente al Tratamiento de sus Datos Personales (Ley N.º 8968)"
+           :jurisdiction "CRI"
+           :kind :law
+           :law-number "Ley N.º 8968"
+           :url "https://pgrweb.go.cr/scij/Busqueda/Normativa/Normas/nrm_texto_completo.aspx?param1=NRTC&nValor1=1&nValor2=70975&nValor3=85989"
+           :url-provenance :official-pgrweb-go-cr
+           :enacted-date "2011-07-07"
+           :retrieved-at "2026-07-16"
+           :topic [:data-protection :privacy]}
+ #:statute{:id "cri.codigo-trabajo-ley-2"
+           :title "Código de Trabajo (Ley N.º 2)"
+           :jurisdiction "CRI"
+           :kind :law
+           :law-number "Ley N.º 2"
+           :url "https://pgrweb.go.cr/scij/Busqueda/Normativa/Normas/nrm_texto_completo.aspx?nValor1=1&nValor2=8045"
+           :url-provenance :official-pgrweb-go-cr
+           :enacted-date "1943-08-27"
+           :last-revised-date "2026-04-07"
+           :retrieved-at "2026-07-16"
+           :topic [:labor :employment]}]
