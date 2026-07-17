@@ -1,0 +1,14 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "cri.dish.gallo-pinto", :name "Gallo pinto", :country "CRI", :kind :dish, :summary "Traditional rice-and-bean dish important to both Nicaragua and Costa Rica, both of which consider it a national dish; its precise origin is disputed between the two countries.", :url "https://en.wikipedia.org/wiki/Gallo_pinto", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "cri.dish.casado", :name "Casado", :country "CRI", :kind :dish, :summary "Costa Rican meal of rice, black beans, plantains, salad, tortilla and an optional protein such as chicken, beef or fish.", :url "https://en.wikipedia.org/wiki/Casado", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "cri.dish.chifrijo", :name "Chifrijo", :country "CRI", :kind :dish, :summary "Combination of chicharrón and frijoles (beans) served with rice and pico de gallo, popular in Costa Rican bars.", :url "https://en.wikipedia.org/wiki/Costa_Rican_cuisine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "cri.dish.olla-de-carne", :name "Olla de carne", :country "CRI", :kind :dish, :summary "Costa Rican stew containing beef, cassava, potatoes, maize, green plantains and squash or chayote.", :url "https://en.wikipedia.org/wiki/Costa_Rican_cuisine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "cri.beverage.guaro", :name "Guaro", :country "CRI", :kind :beverage, :summary "Clear distilled sugar-cane spirit popular across Latin America; Costa Rica nationalized its manufacture in 1851, and the Fábrica Nacional de Licores has produced the only legal brand, Cacique Guaro, since 1980.", :url "https://en.wikipedia.org/wiki/Guaro_(drink)", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "cri.product.costa-rican-coffee", :name "Costa Rican coffee", :country "CRI", :kind :product, :summary "Coffee production has played a key role in Costa Rica's history and economy, having been the country's number-one cash crop export for several decades.", :url "https://en.wikipedia.org/wiki/Coffee_production_in_Costa_Rica", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:url "https://en.wikipedia.org/wiki/Cocos_Island", :id "cri.heritage.cocos-island", :kind :heritage, :name-local "Isla del Coco", :country "CRI", :retrieved-at "2026-07-17", :summary "Volcanic island in the Pacific Ocean administered by Costa Rica; Cocos Island National Park became a UNESCO World Heritage Site in 1997.", :name "Cocos Island", :url-provenance :wikipedia-en}
+]
