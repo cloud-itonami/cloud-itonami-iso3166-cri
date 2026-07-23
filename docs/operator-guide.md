@@ -10,7 +10,12 @@
    Compras Públicas).
 4. Compare the checklist against the client's current documentation
    (Registro Nacional de la Propiedad entry).
-5. Enable gated filing-draft assistance once the Market-Entry Compliance
+5. Declare the engagement's own personal-data-handling scope
+   (internal-only, or distribute/disclose/commercialize) and, when
+   that scope triggers a PRODHAB database-registration duty under Ley
+   N.º 8968, confirm the client's own registration record is actually
+   on file BEFORE any filing submission — see README Checks item 3.
+6. Enable gated filing-draft assistance once the Market-Entry Compliance
    Governor contract is trusted; actual submission always requires human
    sign-off.
 

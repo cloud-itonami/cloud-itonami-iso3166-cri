@@ -34,6 +34,12 @@
   public-procurement preference provisions favoring domestic and
   Central American Free Trade Agreement (CAFTA-DR) qualifying suppliers
   on relevant tenders
+- personal-data-handling scope review: when the client's own
+  engagement will distribute, disclose or commercialize personal data
+  collected in the course of servicing the contract, confirming the
+  client's own PRODHAB (Agencia de Protección de Datos de los
+  Habitantes) database-registration record under Ley N.º 8968 is
+  actually on file before any filing submission
 - ongoing regulatory-change monitoring subscription
 - compliance-audit export package for the client's own records
 
@@ -52,6 +58,13 @@
 - a false or fabricated regulatory-requirement claim is a HARD hold that
   cannot be overridden by human approval alone — it must be corrected
   against a cited official source first
+- an engagement whose own declared personal-data-handling scope
+  (distributing, disclosing or commercializing personal data) actually
+  requires PRODHAB database registration under Ley N.º 8968, but that
+  has not actually registered, is a HARD hold that cannot be
+  overridden — this fires ONLY when the declared scope genuinely
+  triggers the duty and the engagement is not an exempt regulated
+  financial institution, never as a blanket rule against any scope
 - this service does **not** provide legal or tax advice; characterization
   and filing on the client's behalf beyond checklist/draft assistance
   routes to Costa Rican-licensed counsel or a registered agent
