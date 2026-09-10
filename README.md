@@ -37,7 +37,7 @@ twice, enforced off dedicated `:drafted?`/`:submitted?` booleans, never
 a `:status` value.
 
 Check 3 is deliberately **scope-conditional, not a blanket rule**:
-`test/marketentry/governor_contract_test.clj`'s
+`test/marketentry/governor_contract_test.kotoba`'s
 `prodhab-registration-scope-mismatch-does-not-fire-when-registered`
 proves a `:commercialize`-scope engagement that IS PRODHAB-registered
 proceeds through the ordinary escalate-then-approve path with no HARD
@@ -68,7 +68,7 @@ Forbidden on direct fetch this session, disclosed, not concealed).
 `marketentry.facts/prodhab-registration-required?` exposes exactly
 this scope-trigger/exemption logic -- an unrecognized scope keyword is
 NEVER assumed to trigger (or not trigger) registration; see
-`test/marketentry/facts_test.clj`'s
+`test/marketentry/facts_test.kotoba`'s
 `prodhab-registration-required-is-honestly-scoped`.
 
 **Costa Rica's Registro Nacional is, by contrast, a single national
@@ -93,8 +93,8 @@ independent layers enforce this:
 - `marketentry.phase`'s phase table (`phase 0` through `phase 3`)
   never puts `:filing/draft` or `:filing/submit` in any phase's
   `:auto` set -- see `marketentry.phase`'s own docstring and
-  `test/marketentry/phase_test.clj`'s `filing-submit-never-auto`, plus
-  `test/marketentry/governor_contract_test.clj`'s
+  `test/marketentry/phase_test.kotoba`'s `filing-submit-never-auto`, plus
+  `test/marketentry/governor_contract_test.kotoba`'s
   `filing-draft-and-submit-never-auto-commit`.
 
 The actor may intake an engagement, assess a jurisdiction and draft a
@@ -185,7 +185,7 @@ as the other `cloud-itonami-iso3166-*` siblings:
 
 - `src/marketentry/{facts,governor,phase,sim,operation,registry,store,
   marketentryllm}.cljc` -- the actor. `facts.cljc` reuses this repo's
-  own `src/statute/facts.cljc` citations verbatim (Código de Comercio
+  own `src/statute/facts.kotoba` citations verbatim (Código de Comercio
   Ley N.º 3284 for the mercantile-registration precondition, Ley de
   Protección de Datos Ley N.º 8968 for the flagship PRODHAB check),
   never a second, different citation for the same law, and cites
@@ -203,9 +203,9 @@ as the other `cloud-itonami-iso3166-*` siblings:
   applicability gate, grounded in a country whose data-protection law
   conditionally attaches an additional duty onto a public-procurement
   filing (see the namespace docstrings and
-  `test/marketentry/governor_contract_test.clj`'s three contrasting
+  `test/marketentry/governor_contract_test.kotoba`'s three contrasting
   fixtures for the full honest disclosure).
-- `src/statute/facts.cljc` -- general-law catalog (pre-existing, not
+- `src/statute/facts.kotoba` -- general-law catalog (pre-existing, not
   modified by this Wave): Código de Comercio (Ley N.º 3284), Ley de
   Protección de Datos (Ley N.º 8968), Código de Trabajo (Ley N.º 2).
 
@@ -234,7 +234,7 @@ Alongside the market-entry / statute catalogs, this repo carries a
 `com-junkawasaki/root`) — national dishes, protected products, beverages,
 crafts, festivals and heritage sites for Costa Rica:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.kotoba` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring `statute.facts`).
 - `schema/culture.edn` — DataScript schema.
 - `data/culture-tx.edn` — derived DataScript tx-data (regenerated from
