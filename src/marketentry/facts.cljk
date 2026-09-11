@@ -4,7 +4,7 @@
   Every field traces to a source independently fetched THIS session
   (2026-07-23), or reuses a citation THIS REPO already independently
   established and verified in a PRIOR session
-  (`src/statute/facts.cljc`, retrieved 2026-07-16) -- never a second,
+  (`src/statute/facts.cljk`, retrieved 2026-07-16) -- never a second,
   different citation for the same underlying law.
 
     - Business/mercantile registration: this catalog REUSES this
